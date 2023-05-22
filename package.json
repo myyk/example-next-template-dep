@@ -1,0 +1,36 @@
+{
+  "name": "example-next-template-dep",
+  "version": "1.0.0",
+  "description": "Example of moving some next template into the a devDependency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myyk/example-next-template-dep"
+  },
+  "author": "Myyk Seok",
+  "license": "APACHE-2.0",
+  "bugs": {
+    "url": "https://github.com/myyk/example-next-template-dep/issues"
+  },
+  "homepage": "https://github.com/myyk/example-next-template-dep#readme",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "build": "./bin/build.js",
+    "dev": "./bin/dev.js",
+    "lint": "./bin/lint.js",
+    "start": "./bin/start.js"
+  },
+  "dependencies": {
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "shelljs": "^0.8.5"
+  }
+}
